@@ -4,34 +4,26 @@
 
 RELIQUARY is a design artifact repository for hardware projects. It helps collect project files, record dated design snapshots, and identify missing documentation before a project becomes hard to understand or rebuild.
 
-## Purpose
+## Current version
 
-GitHub is excellent for storing files, but it is not always the best way to understand a physical project. RELIQUARY adds a project-level view across electronics, mechanical design, machine files, software, images, and documentation.
+FI-072 RELIQUARY v1.2.0 — Cabinet Refinement
 
-## Included in v1.0.0
+## What changed in v1.2.0
 
-- Project Library dashboard
-- Artifact Cabinet
-- Design Snapshot timeline
-- Rebuild Readiness checklist
-- Automatic gap detection
-- Rebuild Confidence score
-- Documentation Completeness score
-- Autosave using browser local storage
-- Light and dark themes
-- Import and export RELIQUARY JSON
-- Export README draft
-- Export artifact manifest CSV
-- Export project dossier HTML
-- Built-in demo project
+- In-app modal editing for projects, artifacts, and snapshots
+- Current project selector in the left navigation
+- Sortable and filterable Artifact Cabinet
+- Automatic category and role suggestions from filenames and paths
+- Bulk artifact import
+- Project archive, restore, and duplicate controls
+- Snapshot create, edit, mark-current, and delete controls
+- Companion-file hints for source CAD, programming notes, and machine setup notes
+- Rebuild confidence and documentation scoring
+- JSON, README, CSV, and HTML dossier exports
 
 ## Use
 
-Open `index.html` in a browser. The app is self-contained and does not require a backend.
-
-## Version
-
-FI-072 RELIQUARY v1.0.0
+Open `index.html` in a browser. The app is a static web app using `index.html`, `styles.css`, and `app.js`. It does not require a backend.
 
 ## Author
 

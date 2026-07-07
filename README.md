@@ -23,7 +23,7 @@ FI-072 RELIQUARY v1.2.0 — Cabinet Refinement
 
 ## Use
 
-Open `index.html` in a browser. The app is a static web app using `index.html`, `styles.css`, and `app.js`. It does not require a backend.
+Open `index.html` in a browser. The app is a static web app using `index.html`, `styles.css`, `app.js`, and `fixes.js`. It does not require a backend.
 
 ## Author
 

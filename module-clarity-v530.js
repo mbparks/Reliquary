@@ -1,5 +1,5 @@
 (()=>{
-  const VERSION='v5.3.1';
+  const VERSION='v5.3.2';
   const GUIDES={
     library:{title:'Project Library',display:'PROJECT\nLIBRARY',tag:'Choose or create a project archive',answers:'Which hardware project am I preserving right now?',use:'Use this module to create a new RELIQUARY project, switch between archives, and compare archive completeness across projects.',not:'Do not use it for individual files, parts, suppliers, or build lessons. Those belong in the more specific modules.',prompts:['Create one archive per real project','Use a clear project name and code','Open the project before adding evidence']},
     archive:{title:'Archive Readiness',display:'ARCHIVE\nREADINESS',tag:'The health dashboard',answers:'Can this project be understood, rebuilt, repaired, published, or resumed later?',use:'Use this module to see what is missing and decide the next best preservation action.',not:'Do not treat this as a task board. It is a readiness gauge based on evidence already stored elsewhere.',prompts:['Start with the highest-impact missing gate','Use gaps to decide what artifact to add next','Recheck after adding files, snapshots, and memory']},
@@ -41,7 +41,7 @@
   }
   function patchVersionLabels(){
     document.querySelectorAll('.tag,.pill').forEach(el=>{
-      el.textContent=el.textContent.replace(/v5\.2\.[01]|v5\.2\.0|v5\.3\.0/g,VERSION);
+      el.textContent=el.textContent.replace(/v5\.2\.[01]|v5\.2\.0|v5\.3\.[012]|v5\.3\.0/g,VERSION);
     });
   }
   function demoteOldHeroes(root){

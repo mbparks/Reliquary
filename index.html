@@ -7,6 +7,22 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body data-theme="dark">
-<div class="wrap">
-<header class="top"><div class="brand"><div class="sig">R</div><div><h1>RELIQUARY</h1><p>FI-072 · Complete hardware project archive system.</p></div></div><div class="actions"><span class="pill" id="save">Autosave ready</span><span class="pill">v5.0.0</span><button class="btn" id="theme">Theme</button><button class="btn" id="exportJson">Export JSON</button></div></header>
-<div class="grid"><aside class="side"><h3>Current Project</h3><select id="pick"></select><h3>Reliquary</h3><button class="nav" data-v="library">Project Library</button><button class="nav" data-v="dash">Dashboard</button><button class="nav" data-v="complete">Complete Archive</button><button class="nav" data-v="arts">Artifact Cabinet</button><button class="nav" data-v="snaps">Design Snapshots</button><button class="nav" data-v="checks">Rebuild Checklist</button><button class="nav" data-v="lineage">Artifact Lineage</button><button class="nav" data-v="scan">Repo Scanner</button><button class="nav" data-v="publish">Publish Readiness</button><button class="nav" data-v="package">GitHub Package</button><button class="nav" data-v="memory">Hardware Memory</button><button class="nav" data-v="reliability">Reliability Harness</button><button class="nav" data-v="templates">Templates / Demos</button><button class="nav" data-v="reports">Reports</button><div class="mini" id="mini"></div></aside><main id="app"></main></div><div class="foot">RELIQUARY | FI-072 | M.B. Parks, Green Shoe Garage © 2026</div></div><div class="toast" id="toast"></div><script src="app-v5.js"></script></body></html>
+<div class="app-shell">
+<header class="topbar">
+  <div class="brand"><div class="sigil">R</div><div><h1>RELIQUARY</h1><p>FI-072 · Complete hardware project archive system.</p></div></div>
+  <div class="top-actions"><span class="pill" id="saveState">Autosave ready</span><span class="pill">v5.1.0</span><button class="btn" id="themeBtn">Theme</button><button class="btn" id="exportStateBtn">Export JSON</button><label class="btn">Import JSON<input id="importState" type="file" accept="application/json" hidden></label></div>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <label class="field compact"><span>Current project</span><select id="projectPicker"></select></label>
+    <nav id="nav"></nav>
+    <div id="sideSummary" class="side-summary"></div>
+  </aside>
+  <main id="app" class="content"></main>
+</div>
+<footer>RELIQUARY | FI-072 | M.B. Parks, Green Shoe Garage | 2026</footer>
+</div>
+<div id="toast" class="toast"></div>
+<script src="app-v5.js"></script>
+</body>
+</html>

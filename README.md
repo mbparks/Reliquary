@@ -6,7 +6,14 @@ RELIQUARY is a complete hardware project archive system. It helps collect projec
 
 ## Current version
 
-FI-072 RELIQUARY v5.3.1 — Consistent Module Headers
+FI-072 RELIQUARY v5.3.2 — Module Header Layout Fix
+
+## Fixed in v5.3.2
+
+- Fixed module header overlap caused by the large title sharing a horizontal grid row with guidance cards
+- Changed module headers to a vertical structure: large title first, explanatory question below, guidance cards underneath
+- Reduced the large title scale slightly so long module names fit cleanly
+- Kept the consistent module header treatment introduced in v5.3.1
 
 ## Fixed in v5.3.1
 

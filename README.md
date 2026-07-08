@@ -6,7 +6,15 @@ RELIQUARY is a complete hardware project archive system. It helps collect projec
 
 ## Current version
 
-FI-072 RELIQUARY v5.3.0 — Module Clarity Pass
+FI-072 RELIQUARY v5.3.1 — Consistent Module Headers
+
+## Fixed in v5.3.1
+
+- Made every module use the same large visual header pattern at the top of the module
+- Moved the large title treatment into the module clarity layer instead of leaving it only inside Project Library and Hardware Memory
+- Demoted older internal hero blocks so they no longer compete with the module header
+- Added `module-headers-v531.css` for the shared module header treatment
+- Kept the v5.3.0 module guidance cards and v5.2.1 Hardware Memory navigation fix intact
 
 ## Added in v5.3.0
 
@@ -15,8 +23,6 @@ FI-072 RELIQUARY v5.3.0 — Module Clarity Pass
 - Each module now includes guidance for what belongs there and what does not belong there
 - Each module now includes suggested next actions so the user knows what to do first
 - Extended the Hardware Memory clarity pattern to Project Library, Archive Readiness, Artifact Cabinet, Design Snapshots, Repo Scanner, Artifact Lineage, Reports, Diagnostics, and Templates / Demos
-- Kept the v5.2.1 Hardware Memory navigation fix intact
-- Updated the visible app marker to v5.3.0
 
 ## Recently fixed
 

@@ -6,18 +6,18 @@ RELIQUARY is a complete hardware project archive system. It helps collect projec
 
 ## Current version
 
-FI-072 RELIQUARY v5.1.1 — Relationship UI Repair
+FI-072 RELIQUARY v5.2.0 — Hardware Memory Clarity
 
-## Fixed in v5.1.1
+## Added in v5.2.0
 
-- Replaced the confusing browser prompt used by the Artifact Cabinet relationship action
-- Renamed the action from `Link` to `Set Source / Parent`
-- Added an in-page relationship editor with explanatory copy
-- Added a Source / Parent column to the Artifact Cabinet table
-- Added relationship notes for generated or dependent artifacts
-- Clarified that artifact relationships feed the Artifact Lineage view
-- Replaced the project edit browser prompt with an in-page project editor
-- Kept the v5.1 cleanup data model and diagnostics improvements
+- Reframed Hardware Memory as the place for shop wisdom around the project
+- Added clear UI guidance explaining what belongs in Hardware Memory and what belongs in the Artifact Cabinet
+- Added separate memory sections for parts, tools/machines, suppliers, and lessons/failures/repairs
+- Added prompt text for each section so the user knows what kind of information to enter
+- Added rating buttons: Worked great, Worked okay, Use with caution, Failed / avoid, and Unknown
+- Added reuse notes so users can record whether they would use a part, tool, supplier, or method again
+- Added Hardware Memory records to report exports as `hardware-memory.md`
+- Updated exported project JSON to Schema 5.2
 
 ## Use
 

@@ -6,7 +6,13 @@ RELIQUARY is a complete hardware project archive system. It helps collect projec
 
 ## Current version
 
-FI-072 RELIQUARY v5.2.0 — Hardware Memory Clarity
+FI-072 RELIQUARY v5.2.1 — Hardware Memory Navigation Fix
+
+## Fixed in v5.2.1
+
+- Corrected the Hardware Memory navigation route so the Hardware Memory button opens the Hardware Memory module instead of falling back to Archive Readiness
+- Added a small route hotfix script loaded after the main app script
+- Kept all v5.2.0 Hardware Memory clarity features intact
 
 ## Added in v5.2.0
 

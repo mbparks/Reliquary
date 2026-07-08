@@ -2,32 +2,26 @@
 
 **Field Instrument 072**
 
-RELIQUARY is a complete hardware project archive system. It helps collect project files, record dated design snapshots, classify artifacts, model file relationships, identify missing documentation, preserve hardware memory, assess publish readiness, generate GitHub-ready package files, and prepare a durable handoff record for future builders.
+RELIQUARY is a complete hardware project archive system. It helps collect project files, classify artifacts, record design snapshots, model file relationships, identify missing documentation, preserve hardware memory, assess publish readiness, and generate GitHub-ready package files.
 
 ## Current version
 
-FI-072 RELIQUARY v5.0.0 — Complete Reliquary
+FI-072 RELIQUARY v5.1.0 — Cleanup and Stabilization
 
-## Included in v5.0.0
+## Cleanup focus in v5.1.0
 
-- Project Library
-- Project Dashboard
-- Complete Archive maturity screen
-- Artifact Cabinet with classification and confidence review
-- Design Snapshot timeline
-- Rebuild Checklist with inferred evidence
-- Artifact Lineage
-- Public repository scanner and manual file-tree import
-- Publish Readiness
-- GitHub Package Mode
-- Hardware Memory
-- Reliability Harness
-- Templates and demo library
-- Report exports and RELIQUARY Project Schema 5 JSON
+- Streamlined navigation into core, tools, and system sections
+- Consolidated duplicated readiness and checklist views into Archive Readiness
+- Tightened the static app data layer, schema metadata, and local-storage migration
+- Normalized projects, artifacts, snapshots, parts, tools, suppliers, and lessons on every save
+- Improved diagnostics for duplicate IDs, duplicate paths, broken parent links, and broken snapshot references
+- Improved Artifact Cabinet filtering and classification behavior
+- Improved report generation around README, artifact manifest, archive report, hardware memory, diagnostics, and Schema 5.1 JSON
+- Updated visible version marker to v5.1.0
 
 ## Use
 
-Open `index.html` in a browser. The app is a static web app and does not require a backend.
+Open `index.html` in a browser. The app is static and does not require a backend.
 
 ## Author
 

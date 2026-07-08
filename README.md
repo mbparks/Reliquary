@@ -6,24 +6,29 @@ RELIQUARY is a complete hardware project archive system. It helps collect projec
 
 ## Current version
 
-FI-072 RELIQUARY v5.2.1 — Hardware Memory Navigation Fix
+FI-072 RELIQUARY v5.3.0 — Module Clarity Pass
 
-## Fixed in v5.2.1
+## Added in v5.3.0
+
+- Added a module clarity layer across the full application
+- Each major module now explains what question it answers
+- Each module now includes guidance for what belongs there and what does not belong there
+- Each module now includes suggested next actions so the user knows what to do first
+- Extended the Hardware Memory clarity pattern to Project Library, Archive Readiness, Artifact Cabinet, Design Snapshots, Repo Scanner, Artifact Lineage, Reports, Diagnostics, and Templates / Demos
+- Kept the v5.2.1 Hardware Memory navigation fix intact
+- Updated the visible app marker to v5.3.0
+
+## Recently fixed
+
+### v5.2.1
 
 - Corrected the Hardware Memory navigation route so the Hardware Memory button opens the Hardware Memory module instead of falling back to Archive Readiness
-- Added a small route hotfix script loaded after the main app script
-- Kept all v5.2.0 Hardware Memory clarity features intact
 
-## Added in v5.2.0
+### v5.2.0
 
 - Reframed Hardware Memory as the place for shop wisdom around the project
-- Added clear UI guidance explaining what belongs in Hardware Memory and what belongs in the Artifact Cabinet
-- Added separate memory sections for parts, tools/machines, suppliers, and lessons/failures/repairs
-- Added prompt text for each section so the user knows what kind of information to enter
-- Added rating buttons: Worked great, Worked okay, Use with caution, Failed / avoid, and Unknown
-- Added reuse notes so users can record whether they would use a part, tool, supplier, or method again
+- Added rating buttons and reuse notes for memory records
 - Added Hardware Memory records to report exports as `hardware-memory.md`
-- Updated exported project JSON to Schema 5.2
 
 ## Use
 
